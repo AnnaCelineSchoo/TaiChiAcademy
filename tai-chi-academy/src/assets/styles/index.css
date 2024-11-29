@@ -10,6 +10,23 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+/* added css */
+.map-section {
+  margin-top: 5rem; /* Adjust to create spacing */
+  margin-bottom: 5rem;
+}
+
+button#submitButton {
+  margin-bottom: 2rem; /* Ensures space below the button */
+}
+
+.social-icon i {
+  font-size: 2rem; /* Adjust this value to make icons bigger or smaller */
+  margin-top: 2rem;
+}
+
+/* end added css */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11468,6 +11485,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
+  padding-bottom: 10rem;
   background: linear-gradient(
     to bottom,
     #000 0%,
@@ -11503,7 +11521,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  height: 100vh;
+  height: 120vh;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.1) 0%,

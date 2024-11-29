@@ -15,7 +15,7 @@ function Home() {
                 Empowering Mind, Body, and Spirit Through the Art of Tai Chi
               </h2>
               <Link className="btn btn-primary" to="#about">
-                Meer information
+                Meer Informatie
               </Link>
             </div>
           </div>
@@ -25,16 +25,16 @@ function Home() {
         <div class="container px-4 px-lg-5">
           <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8">
-              <h2 class="text-white mb-4">Welkom bij de Tai Chi Academy</h2>
+              <h2 class="text-white mb-4">Welkom bij Tai Chi Academy</h2>
               <p class="text-white-50">
-                Bij de Tai Chi Academie bevorderen we gezondheid, innerlijke
-                rust en vitaliteit door de oude kunst van Tai Chi. Of je nu
-                begint om balans te vinden of je praktijk wilt verdiepen, wij
-                bieden een gastvrije ruimte voor iedereen. Tai Chi combineert
-                zachte bewegingen, ademhaling en mindfulness om stress te
-                verminderen, de gezondheid te verbeteren en de energie van je
-                lichaam te versterken. Onze ervaren instructeur begeleid je in
-                zowel beginners- als gevorderdenlessen. Sluit je aan bij onze
+                Bij Tai Chi Academie bevorderen we gezondheid, innerlijke rust
+                en vitaliteit door de oude kunst van Tai Chi. Of je nu begint om
+                balans te vinden of je praktijk wilt verdiepen, wij bieden een
+                gastvrije ruimte voor iedereen. Tai Chi combineert zachte
+                bewegingen, ademhaling en mindfulness om stress te verminderen,
+                de gezondheid te verbeteren en de energie van je lichaam te
+                versterken. Onze ervaren instructeur begeleid je in zowel
+                beginners- als gevorderdenlessen. Sluit je aan bij onze
                 holistische gemeenschap en ontdek de diepere filosofie van Tai
                 Chi. Begin je reis naar rust en energie bij de Tai Chi Academie.
               </p>
@@ -69,7 +69,7 @@ function Home() {
           <img
             class="img-fluid"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUmZToyr41om8dizd72xZPgvNVxL0YgPONig&s"
-            alt="..."
+            alt="meditating monk"
           />
         </div>
       </section>

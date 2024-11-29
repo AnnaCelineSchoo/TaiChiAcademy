@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Tarieven() {
   return (
     <>
@@ -5,8 +7,19 @@ function Tarieven() {
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8">
-              <h2 className="text-white mb-4">Pricing</h2>
+              <h2 className="text-white mb-4">Tarieven</h2>
               <p className="text-white-50">
+                Ontgrendel je potentieel met onze op maat gemaakte
+                trainingsplannen. Waar je ook staat in je fitnessreis, wij
+                hebben iets voor jou. Van losse lessen tot langdurige trajecten,
+                onze transparante prijzen zorgen voor flexibiliteit en waarde
+                voor iedereen. Doe met ons mee en ervaar deskundige coaching,
+                motiverende groepssessies en een plan dat met je meegroeit. Zet
+                vandaag de eerste stap en kies de optie die bij jouw doelen
+                past. Of het nu gaat om incidentele training of onbeperkte
+                toegang, wij staan voor je klaar!
+              </p>
+              {/* <p className="text-white-50">
                 Unlock your potential with our tailored training plans. No
                 matter where you are in your fitness journey, we’ve got
                 something for you. From single lessons to long-term commitments,
@@ -16,9 +29,14 @@ function Tarieven() {
                 step today, and choose the option that fits your goals. Whether
                 it's occasional training or unlimited access, we’ve got you
                 covered!
-              </p>
+              </p> */}
             </div>
           </div>
+          <img
+            class="img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUmZToyr41om8dizd72xZPgvNVxL0YgPONig&s"
+            alt="meditating monk"
+          />
         </div>
       </section>
 

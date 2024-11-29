@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -112,7 +113,7 @@ function Contact() {
                   )}
                 </div>
 
-                <div className="mt-4">
+                <div className="mt-4 mb-7">
                   <button
                     className="btn btn-primary btn-lg"
                     id="submitButton"
@@ -122,6 +123,67 @@ function Contact() {
                   </button>
                 </div>
               </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="map-section mt-5">
+        <div className="container px-4 px-lg-5">
+          <h2 className="text-center mb-4">Our Location</h2>
+          <div className="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9776.66198371177!2d5.958902!3d52.222211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4a4945fc5402545!2sVechtsport%3A+Shaolin+Kung+Fu+Apeldoorn!5e0!3m2!1snl!2snl!4v1412235104744"
+              width="100%"
+              height="450"
+              frameBorder="0"
+              style={{
+                border: 0,
+                borderRadius: "10px",
+              }}
+              allowFullScreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section bg-black">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                  <h4 class="text-uppercase m-0">Address</h4>
+                  <hr class="my-4 mx-auto" />
+                  <div class="small text-black-50">
+                    Mariannalaan 19a, 7316 DS Apeldoorn
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-envelope text-primary mb-2"></i>
+                  <h4 class="text-uppercase m-0">Email</h4>
+                  <hr class="my-4 mx-auto" />
+                  <div class="small text-black-50">
+                    <a href="#!">addyoutemail@yourdomain.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                  <h4 class="text-uppercase m-0">Phone</h4>
+                  <hr class="my-4 mx-auto" />
+                  <div class="small text-black-50">add your phone</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
