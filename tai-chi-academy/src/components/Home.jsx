@@ -1,4 +1,7 @@
-function Homepage() {
+import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
+function Home() {
   return (
     <>
       {" "}
@@ -10,9 +13,9 @@ function Homepage() {
               <h2 className="text-white-50 mx-auto mt-2 mb-5">
                 Empowering Mind, Body, and Spirit Through the Art of Tai Chi
               </h2>
-              <a className="btn btn-primary" href="#about">
-                More information
-              </a>
+              <Link className="btn btn-primary" to="#about">
+                Meer information
+              </Link>
             </div>
           </div>
         </div>
@@ -59,4 +62,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Home;

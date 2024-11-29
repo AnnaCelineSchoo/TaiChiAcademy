@@ -1,13 +1,18 @@
-import { useState } from "react";
-import Navbar from "./components/Navbar.jsx";
-import Homepage from "./components/Homepage.jsx";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import MainLayout from "./layouts/MainLayout.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import TarievenPage from "./pages/TarievenPage.jsx";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Homepage />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/tarieven" element={<TarievenPage />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
