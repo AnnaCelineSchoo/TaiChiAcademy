@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+
+//import { HashLink as Link } from "react-router-hash-link";
 
 function Home() {
   return (
@@ -24,8 +25,22 @@ function Home() {
         <div class="container px-4 px-lg-5">
           <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8">
-              <h2 class="text-white mb-4">Welcome to the Tai Chi Academy</h2>
+              <h2 class="text-white mb-4">Welkom bij de Tai Chi Academy</h2>
               <p class="text-white-50">
+                Bij de Tai Chi Academie bevorderen we gezondheid, innerlijke
+                rust en vitaliteit door de oude kunst van Tai Chi. Of je nu
+                begint om balans te vinden of je praktijk wilt verdiepen, wij
+                bieden een gastvrije ruimte voor iedereen. Tai Chi combineert
+                zachte bewegingen, ademhaling en mindfulness om stress te
+                verminderen, de gezondheid te verbeteren en de energie van je
+                lichaam te versterken. Onze ervaren instructeur begeleid je in
+                zowel beginners- als gevorderdenlessen. Sluit je aan bij onze
+                holistische gemeenschap en ontdek de diepere filosofie van Tai
+                Chi. Begin je reis naar rust en energie bij de Tai Chi Academie.
+              </p>
+
+              {/* <h2 class="text-white mb-4">Welcome to the Tai Chi Academy</h2> */}
+              {/* <p class="text-white-50">
                 At the Tai Chi Academy, we are dedicated to promoting health,
                 inner peace, and vitality through the ancient art of Tai Chi.
                 Whether you're a beginner seeking balance and relaxation or an
@@ -48,7 +63,7 @@ function Home() {
                 journey. Step into a world of tranquility and energy. Let’s
                 move, breathe, and grow together. Welcome to the Tai Chi
                 Academy.
-              </p>
+              </p> */}
             </div>
           </div>
           <img

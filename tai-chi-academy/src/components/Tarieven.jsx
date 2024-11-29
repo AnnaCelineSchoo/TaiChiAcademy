@@ -22,40 +22,6 @@ function Tarieven() {
         </div>
       </section>
 
-      {/* <section id="additional-info" className="py-5">
-        <div className="container px-4 px-lg-5 text-center">
-          <h2 className="text-dark mb-4">What do we offer?</h2>
-          <p className="text-dark-50 fs-6 mb-4">
-            <i className="fas fa-calendar-alt text-warning me-2"></i> Flexible
-            scheduling to suit your busy lifestyle.
-          </p>
-          <p className="text-dark-50 fs-6 mb-4">
-            <i className="fas fa-trophy text-info me-2"></i> Achieve measurable
-            results with our proven methods.
-          </p>
-          <p className="text-dark-50 fs-6 mb-4">
-            <i className="fas fa-heart text-pink me-2"></i> A supportive
-            community that keeps you motivated.
-          </p>
-          <p className="text-dark-50 fs-6 mb-4">
-            <i className="fas fa-user-friends text-secondary me-2"></i>{" "}
-            motivating group sessions.
-          </p>
-          <p className="text-dark-50 fs-6 mb-4">
-            <i className="fas fa-lock text-dark me-2"></i> No hidden
-            fees—transparent pricing guaranteed.
-          </p>
-          <p className="text-dark-50 fs-6 mb-4">
-            <i className="fas fa-leaf text-success me-2"></i> Holistic training
-            for mind and body wellness.
-          </p>
-          <p className="text-dark-50 fs-6 mb-4">
-            <i className="fas fa-chart-line text-primary me-2"></i> Track your
-            progress with obtaining certificates.
-          </p>
-        </div>
-      </section> */}
-
       <section id="pricing" className="py-5">
         <div className="container">
           <div className="row text-center">

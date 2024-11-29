@@ -7,7 +7,7 @@ function Navbar() {
       id="mainNav"
     >
       <div className="container px-4 px-lg-5">
-        <a className="navbar-brand" href="#page-top">
+        <a className="navbar-brand" href="/">
           Tai Chi Academy
         </a>
         <button
@@ -31,14 +31,20 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
+              <Link className="nav-link" to="/lessen">
+                Lessen
+              </Link>
+            </li>
+
+            <li className="nav-item">
               <Link className="nav-link" to="/media">
                 Media
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/lessen">
-                Lessen
+              <Link className="nav-link" to="/">
+                Agenda
               </Link>
             </li>
 
@@ -49,7 +55,7 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="#signup">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
             </li>
